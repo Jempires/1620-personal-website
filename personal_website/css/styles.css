@@ -1,1 +1,15 @@
+body{
+    background-color:cornflowerblue;
+}
 
+h1{color:indigo; text-align: left; font-size: xx-large; font-weight: bolder ;}
+
+h2{color: indigo; text-align: left;}
+
+p{color:indigo; box-align: left justify; border-style:hidden; font-size:larger; font-weight: bold;}
+
+li{color: indigo; box-align: right justify; font-size:larger; font-weight: bold;}
+
+img{
+    float: right ; border-style: double;
+}
