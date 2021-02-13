@@ -1,15 +1,51 @@
 body{
-    background-color:cornflowerblue;
+  background-color:cornflowerblue; 
 }
 
-h1{color:indigo; text-align: left; font-size: xx-large; font-weight: bolder ;}
+h1{color:indigo; text-align: left; font-family:
+  font-size: 30px; font-weight: bolder;}
 
-h2{color: indigo; text-align: left;}
+h2{color:black; font-family: "Trirong", serif; text-align: left;}
 
-p{color:indigo; box-align: left justify; border-style:hidden; font-size:larger; font-weight: bold;}
+p{color:indigo; box-align: left justify; border-style:hidden; font-family: 'Permanent Marker', cursive;
+  font-family: 'Playfair Display', serif;
+ font-size:larger; font-weight: bold;}
 
-li{color: indigo; box-align: right justify; font-size:larger; font-weight: bold;}
+li{color: indigo; box-align: right justify; font-family: 'Permanent Marker', cursive;
+  font-family: 'Playfair Display', serif;font-size:larger; font-weight: bold;}
 
 img{
     float: right ; border-style: double;
 }
+
+ 
+.topnav { 
+    overflow: hidden;
+    background-color:black;
+}
+
+
+.topnav a {
+    float: left;
+    color:slateblue; 
+    font-family:"Audiowide", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color:violet;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:plum;
+    color: white;
+  }
+
+<div style="padding-left:16px">
+  <h2>Top Navigation Example</h2>
+</div>
