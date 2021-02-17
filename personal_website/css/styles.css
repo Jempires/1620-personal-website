@@ -7,6 +7,7 @@ h1{color:indigo; text-align: left; font-family:
 
 h2{color:black; font-family: "Trirong", serif; text-align: left;}
 
+
 p{color:indigo; box-align: left justify; border-style:hidden; font-family: 'Permanent Marker', cursive;
   font-family: 'Playfair Display', serif;
  font-size:larger; font-weight: bold;}
@@ -15,11 +16,14 @@ li{color: indigo; box-align: right justify; font-family: 'Permanent Marker', cur
   font-family: 'Playfair Display', serif;font-size:larger; font-weight: bold;}
 
 img{
-    float: right ; border-style: double;
+    float: left; margin-right: 0.25cm; border-radius: 50%; border: 1px solid white; padding: 5px; width: 182.7px;
 }
 
  
 .topnav { 
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
     overflow: hidden;
     background-color:black;
 }
