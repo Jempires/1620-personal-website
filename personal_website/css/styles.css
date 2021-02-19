@@ -1,53 +1,74 @@
 body{
-  background-color:cornflowerblue; 
+  background-color: #002642; 
 }
 
-h1{color:indigo; text-align: left; font-family:
-  font-size: 30px; font-weight: bolder;}
+h1{color:#e59500;
+   text-align: left; 
+  font-family:'Lobster', cursive;
+  font-weight: bolder;}
 
-h2{color:black; font-family: "Trirong", serif; text-align: left;}
+
+h2{color:#002642; 
+  font-family: "Trirong", serif; 
+  text-align: left;}
 
 
-p{color:indigo; box-align: left justify; border-style:hidden; font-family: 'Permanent Marker', cursive;
-  font-family: 'Playfair Display', serif;
- font-size:larger; font-weight: bold;}
+p{color: #e59500; 
+  box-align: left justify; 
+  border-style:hidden; 
+  font-family:'Akaya Kanadaka', cursive; 
+  font-size:larger;
+  font-weight: bolder;}
 
-li{color: indigo; box-align: right justify; font-family: 'Permanent Marker', cursive;
-  font-family: 'Playfair Display', serif;font-size:larger; font-weight: bold;}
+li{color:#e59500; 
+  box-align: right justify; 
+  font-family: 'Permanent Marker', cursive;
+  font-size:larger; 
+}
 
+ a{color:#e59500}
+
+a:hover{color:#e5dada}
+
+  
 img{
-    float: left; margin-right: 0.25cm; border-radius: 50%; border: 1px solid white; padding: 5px; width: 182.7px;
+  float: left; 
+  margin-right: 0.25cm;
+  border-radius: 50%; 
+  border: 1px solid #e59500; 
+  padding: 5px; 
+  width: 182.7px;
 }
 
  
 .topnav { 
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    overflow: hidden;
-    background-color:black;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color:#002642;
 }
 
 
 .topnav a {
-    float: left;
-    color:slateblue; 
-    font-family:"Audiowide", sans-serif;
-    font-size: 30px;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  float: left;
+  color:#e5dada; 
+  font-family:"Audiowide", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .topnav a:hover {
-    background-color:violet;
-    color: black;
+  background-color:#e59500;
+  color:#02040f;
   }
   
   .topnav a.active {
-    background-color:plum;
-    color: white;
+  background-color:#e5dada;
+  color:#002642;
   }
 
 <div style="padding-left:16px">
